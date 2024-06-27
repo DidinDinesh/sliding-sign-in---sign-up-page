@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <title>signin & signup page</title>
+</head>
+<body>
+    
+    <div class="container" id="container">
+
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class='bx bxl-google'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-github' ></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+
+                <span>Register With Email</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Enter Email">
+                <input type="password" placeholder="Enter Password">
+                <button>SIGN UP</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class='bx bxl-google'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-github' ></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+
+                <span>Login With Email and Password</span>
+                <input type="email" placeholder="Enter Email">
+                <input type="password" placeholder="Enter Password">
+                <a href="#">Forgot Password?</a>
+                <button>SIGN IN</button>
+            </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-pannel toggle-left">
+                    <h1>Welcome to Tapz Tech</h1>
+                    <p>Sign in with ID and Password</p>
+                    <button class="hidden" id="login">SIGN IN</button>
+                </div>
+
+                <div class="toggle-pannel toggle-right">
+                    <h1>New to the Website?</h1>
+                    <p>Join using your Mail ID</p>
+                    <button class="hidden" id="register">SIGN UP</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
