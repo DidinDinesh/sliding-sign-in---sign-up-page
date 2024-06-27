@@ -46,7 +46,7 @@ body {
 }
 
 .container button {
-    background-color: rgb(255,13,13);
+    background-color: rgb(255,13,13,0.8);
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -59,9 +59,19 @@ body {
     cursor: pointer;
 }
 
+.container button:hover {
+    background-color: rgb(255,13,13,1);
+}
+
 .container button.hidden{
-    background-color: transparent;
+    color: #120202;
+    background-color: #fff;
+    font-weight: 600;
     border-color: #fff;
+}
+
+.container button.hidden:hover {
+    background-color: #f7f1f1; 
 }
 
 .container form {
